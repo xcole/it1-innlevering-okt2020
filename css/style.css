@@ -1,0 +1,61 @@
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.flex-container {
+    background-color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid black 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div a {
+    padding-right: 30px;
+    padding-left: 20px;
+    color: white;
+}
+
+main.hovedside {
+    height: 70vh;
+    padding: 3%;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+main.underside {
+    padding: 3%;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div {
+    display: flex;
+    bottom: 0vh;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    height: 3vh;
+}
+
+a[target="_blank"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0px 3px 0px 5px;
+}
