@@ -1,3 +1,11 @@
+.main-grid-1x1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5vh;
+    text-align: left;
+    padding: 5vh;
+}
+
 .main-grid-1x2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
